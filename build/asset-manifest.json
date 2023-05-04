@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dolevNagar.github.io/Flight-Controll/static/css/main.dd8e25bc.css",
+    "main.js": "/dolevNagar.github.io/Flight-Controll/static/js/main.7efe2025.js",
+    "static/js/787.62b98448.chunk.js": "/dolevNagar.github.io/Flight-Controll/static/js/787.62b98448.chunk.js",
+    "static/media/Backgound.webp": "/dolevNagar.github.io/Flight-Controll/static/media/Backgound.a88127c23ba6ecb6a9f7.webp",
+    "index.html": "/dolevNagar.github.io/Flight-Controll/index.html",
+    "main.dd8e25bc.css.map": "/dolevNagar.github.io/Flight-Controll/static/css/main.dd8e25bc.css.map",
+    "main.7efe2025.js.map": "/dolevNagar.github.io/Flight-Controll/static/js/main.7efe2025.js.map",
+    "787.62b98448.chunk.js.map": "/dolevNagar.github.io/Flight-Controll/static/js/787.62b98448.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd8e25bc.css",
+    "static/js/main.7efe2025.js"
+  ]
+}
