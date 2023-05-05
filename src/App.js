@@ -33,16 +33,16 @@ function App() {
     },
   ]);
 
-  const show = () =>{
-    return <FlightList plain={plain} />
-  }
+  useEffect(() => {
+    setPlain(plain)
+  }, [plain]);
+
   return (
     <div>
       <Header />
       <HashRouter>
         <div id='appDiv'>
-          {/* <FlightList plain={plain} /> */}
-          {show()}
+          <FlightList plain={plain} />
           <Routes>
             <Route path='/' element={<SignIn />} />
             <Route path='/controlpanel' element={
@@ -57,6 +57,7 @@ function App() {
             <Route path='/controlpanel/add' element={
               <AddFlight
                 plain={plain}
+                setPlain={setPlain}
               />} />
             <Route path='/controlpanel/delete' element={
               <Delete

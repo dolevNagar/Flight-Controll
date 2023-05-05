@@ -16,7 +16,6 @@ export default function Delete(props) {
     return (
         <div>
             <h2>Delete</h2>
-            <FlightList plain={props.plain} />
             <input onChange={(e) => setID(e.target.value)} type='number' placeholder='Flight Number' />
             <button onClick={()=>deleteFlight()}>Delete</button>
         </div>
