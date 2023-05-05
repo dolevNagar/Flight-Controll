@@ -29,9 +29,9 @@ export default function AddFlight(props) {
         nav('/controlpanel');
     }
     return (
-        <div>
+        <div className='container'>
             <h2>Add Flight</h2>
-            <FlightList flightList={props.plain} />
+            {/* <FlightList plain={props.plain} /> */}
             <input onChange={(e) => setID(e.target.value)} type="number" placeholder='flight ID' /><br />
             <input onChange={(e) => setCompany(e.target.value)} type="text" placeholder='flight Company' /><br />
             <input onChange={(e) => setPassengers(e.target.value)} type="number" placeholder='Passengers Number' /><br />

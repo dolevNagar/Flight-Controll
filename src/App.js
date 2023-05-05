@@ -7,6 +7,7 @@ import ControlPanel from './components/ControlPanel';
 import Sort from './components/Sort';
 import AddFlight from './components/AddFlight';
 import Delete from './components/Delete';
+import FlightList from './components/FlightList';
 
 function App() {
   const [plain, setPlain] = useState([
@@ -31,37 +32,41 @@ function App() {
       passengers: 450
     },
   ]);
-  const [flightOrder,setFlightOrder] = useState();
-useEffect(()=>{
 
-},[flightOrder])
+  const show = () =>{
+    return <FlightList plain={plain} />
+  }
   return (
     <div>
       <Header />
       <HashRouter>
-        <Routes>
-          <Route path='/' element={<SignIn />} />
-          <Route path='/controlpanel' element={
-            <ControlPanel
-              plain={plain}
-            />} />
-          <Route path='/controlpanel/sort' element={
-            <Sort
-              plain={plain}
-              setFlightOrder={setFlightOrder}
-            />} />
-          <Route path='/controlpanel/add' element={
-            <AddFlight
-              plain={plain}
-            />} />
-          <Route path='/controlpanel/delete' element={
-            <Delete
-              plain={plain}
-              setPlain={setPlain}
-            />} />
-        </Routes>
+        <div id='appDiv'>
+          {/* <FlightList plain={plain} /> */}
+          {show()}
+          <Routes>
+            <Route path='/' element={<SignIn />} />
+            <Route path='/controlpanel' element={
+              <ControlPanel
+                plain={plain}
+              />} />
+            <Route path='/controlpanel/sort' element={
+              <Sort
+                plain={plain}
+                setPlain={setPlain}
+              />} />
+            <Route path='/controlpanel/add' element={
+              <AddFlight
+                plain={plain}
+              />} />
+            <Route path='/controlpanel/delete' element={
+              <Delete
+                plain={plain}
+                setPlain={setPlain}
+              />} />
+          </Routes>
+        </div>
       </HashRouter>
-    </div>
+    </div >
   );
 }
 
