@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Flight-Controll/static/css/main.2df0c14e.css",
-    "main.js": "/Flight-Controll/static/js/main.04033af7.js",
+    "main.css": "/Flight-Controll/static/css/main.d5dc1e30.css",
+    "main.js": "/Flight-Controll/static/js/main.2b87151b.js",
     "static/js/787.62b98448.chunk.js": "/Flight-Controll/static/js/787.62b98448.chunk.js",
     "static/media/Backgound.webp": "/Flight-Controll/static/media/Backgound.a88127c23ba6ecb6a9f7.webp",
     "index.html": "/Flight-Controll/index.html",
-    "main.2df0c14e.css.map": "/Flight-Controll/static/css/main.2df0c14e.css.map",
-    "main.04033af7.js.map": "/Flight-Controll/static/js/main.04033af7.js.map",
+    "main.d5dc1e30.css.map": "/Flight-Controll/static/css/main.d5dc1e30.css.map",
+    "main.2b87151b.js.map": "/Flight-Controll/static/js/main.2b87151b.js.map",
     "787.62b98448.chunk.js.map": "/Flight-Controll/static/js/787.62b98448.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2df0c14e.css",
-    "static/js/main.04033af7.js"
+    "static/css/main.d5dc1e30.css",
+    "static/js/main.2b87151b.js"
   ]
 }
